@@ -6,8 +6,8 @@
     # List the VMIDs of the containers you want to update
     lxc_container_ids:
       - 100
-      - 101
-      - 102
+      #- 101
+      #- 102
 
   tasks:
     - name: Update and Upgrade LXC Containers
